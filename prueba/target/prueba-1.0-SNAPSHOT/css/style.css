@@ -1,0 +1,26 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 21 sept 2023, 20:03:45
+    Author     : HP
+*/
+
+body {
+    background-color: #FFFFFF;
+}
+.bg-black {
+    background-color: #363A42 !important;
+}
+.img-height {
+    height: 100px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-height {
+    max-height: 100px; /* Cambia esta altura según tus necesidades */
+}
