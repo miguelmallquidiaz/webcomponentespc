@@ -1,5 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="modelo.Compra, java.util.*"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,7 +10,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <jsp:include page="/template/Navbar.jsp"/>
+        <jsp:include page="./plantillas/PlantillaNavbar.jsp" />
         <%
             HttpSession ses = request.getSession();
             List<Compra> lista = (ArrayList<Compra>) ses.getAttribute("canasta");
