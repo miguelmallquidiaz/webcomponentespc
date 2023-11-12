@@ -1,5 +1,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="modelo.Compra, java.util.*"%>
+<%@page import="java.math.RoundingMode"%>
+<%@page import="java.math.BigDecimal"%>
 
 <!DOCTYPE html>
 <html>
@@ -41,6 +43,10 @@
                     precioTotal += x.getPrecio();
                 }
             }
+            // Redondear precioTotal a dos decimales utilizando BigDecimal
+            BigDecimal precioTotalBigDecimal = new BigDecimal(precioTotal);
+            precioTotalBigDecimal = precioTotalBigDecimal.setScale(2, RoundingMode.HALF_UP);
+            precioTotal = precioTotalBigDecimal.doubleValue();
         %>
         <div class="container text-center mt-3">
             <img src="img/banner.jpg" alt="Banner" class="img-fluid max-width-100">
@@ -50,23 +56,6 @@
             <div class="row">
                 <div class="col-12">
                     <h1 class="text-center text-lg-left text-black">Elegir tus componentes: </h1>
-                </div>
-            </div>
-        </div>
-
-        <div class="container mt-4">
-            <div class="row align-items-center">
-                <div class="col-3">
-                    <label for="miCampoTexto" class="text-left fs-4">Ingresar monto:</label>
-                </div>
-                <div class="col-3">
-                    <input type="text" id="miCampoTexto" name="miCampoTexto">
-                </div>
-                <div class="col-3">
-                    <label for="precioTotal" class="text-left fs-4">Precio Total:</label>
-                </div>
-                <div class="col-3">
-                    <input type="text" id="precioTotal" name="precioTotal" value="<%=precioTotal%>" readonly>
                 </div>
             </div>
         </div>
@@ -265,5 +254,16 @@
                 }
             %>
         </form>
+
+        <div class="container mt-4 p-4">
+            <div class="row align-items-center">
+                <div class="col-3">
+                    <label for="precioTotal" class="text-left fs-4">Precio Total:</label>
+                </div>
+                <div class="col-3">
+                    <input type="text" id="precioTotal" name="precioTotal" value="<%=precioTotal%>" readonly>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
