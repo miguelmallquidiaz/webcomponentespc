@@ -190,20 +190,3 @@ html{
 	100% {margin-left: -300%;}
 }
 
-body {
-    background-color: #FFFFFF;
-}
-.bg-black {
-    background-color: #363A42 !important;
-}
-.img-height {
-    height: 100px;
-}
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
-
-.img-height {
-    max-height: 100px; /* Cambia esta altura según tus necesidades */
-}
