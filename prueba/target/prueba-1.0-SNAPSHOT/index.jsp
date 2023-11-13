@@ -9,7 +9,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Calculadora de componentes</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/styleIR.css">
     </head>
     <body>
         <jsp:include page="./plantillas/PlantillaNavbar.jsp" />
@@ -48,9 +48,16 @@
             precioTotalBigDecimal = precioTotalBigDecimal.setScale(2, RoundingMode.HALF_UP);
             precioTotal = precioTotalBigDecimal.doubleValue();
         %>
-        <div class="container text-center mt-3">
-            <img src="img/banner.jpg" alt="Banner" class="img-fluid max-width-100">
+        
+        <div class="slider-frame">
+        <ul>
+            <li><img src="img/banner.jpg" alt=""></li>
+            <li><img src="img/banner.jpg" alt=""></li>
+            <li><img src="img/banner.jpg" alt=""></li>
+            <li><img src="img/banner.jpg" alt=""></li>
+        </ul>
         </div>
+
 
         <div class="container my-5 title">
             <div class="row">
