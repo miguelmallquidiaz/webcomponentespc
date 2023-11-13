@@ -2,6 +2,8 @@
 <%@page import="modelo.Compra, java.util.*"%>
 <%@page import="java.math.RoundingMode"%>
 <%@page import="java.math.BigDecimal"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
 
 <!DOCTYPE html>
 <html>
