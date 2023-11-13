@@ -1,10 +1,14 @@
-D:\proyects\webcomponentespc\prueba\src\main\java\myServlet\controlUsuario.java
 D:\proyects\webcomponentespc\prueba\src\main\java\util\Prueba.java
 D:\proyects\webcomponentespc\prueba\src\main\java\util\SQLConexion.java
-D:\proyects\webcomponentespc\prueba\src\main\java\Interface\InterReserva.java
 D:\proyects\webcomponentespc\prueba\src\main\java\dao\prueba.java
 D:\proyects\webcomponentespc\prueba\src\main\java\modelo\Compra.java
 D:\proyects\webcomponentespc\prueba\src\main\java\modelo\Articulos.java
+D:\proyects\webcomponentespc\prueba\src\main\java\dao\UsuarioDAO.java
+D:\proyects\webcomponentespc\prueba\src\main\java\myServlet\controlUsuario.java
+D:\proyects\webcomponentespc\prueba\src\main\java\Interface\InterReserva.java
+D:\proyects\webcomponentespc\prueba\src\main\java\modelo\Usuario.java
+D:\proyects\webcomponentespc\prueba\src\main\java\Interface\IUsuario.java
 D:\proyects\webcomponentespc\prueba\src\main\java\dao\Negocio.java
 D:\proyects\webcomponentespc\prueba\src\main\java\util\MySQLConexion.java
+D:\proyects\webcomponentespc\prueba\src\main\java\myServlet\LoginController1.java
 D:\proyects\webcomponentespc\prueba\src\main\java\util\Prueba2.java
