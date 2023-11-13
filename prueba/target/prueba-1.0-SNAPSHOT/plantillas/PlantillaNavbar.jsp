@@ -3,6 +3,7 @@
     Created on : 29 set. 2023, 19:59:40
     Author     : Bryan
 --%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -43,7 +44,9 @@
                         <li class="nav-item">
                             <a class="nav-link text-light" href="./crud_memoria.jsp">MEMORIA RAM</a>
                         </li>
-                        
+                        <li class="nav-item">
+            <a class="nav-link text-light" href="#"><%= request.getAttribute("username") %></a>
+        </li>
                     </ul>
                 </div>
             </div>

@@ -2,6 +2,8 @@
 <%@page import="modelo.Compra, java.util.*"%>
 <%@page import="java.math.RoundingMode"%>
 <%@page import="java.math.BigDecimal"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
 
 <!DOCTYPE html>
 <html>
@@ -9,7 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Calculadora de componentes</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/styleIR.css">
+        <link rel="stylesheet" href="css/style_1.css">
     </head>
     <body>
         <jsp:include page="./plantillas/PlantillaNavbar.jsp" />
