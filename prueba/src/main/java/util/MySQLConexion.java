@@ -8,7 +8,7 @@ public class MySQLConexion {
         Connection con = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            String url = "jdbc:mysql://localhost:33065/aplicativo_computer";
+            String url = "jdbc:mysql://localhost:3306/aplicativo_computer";
             String usr = "root";
             String psw = "";
             con = DriverManager.getConnection(url, usr, psw);

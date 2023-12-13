@@ -53,10 +53,10 @@
         
         <div class="slider-frame">
         <ul>
-            <li><img src="img/banner.jpg" alt=""></li>
-            <li><img src="img/banner.jpg" alt=""></li>
-            <li><img src="img/banner.jpg" alt=""></li>
-            <li><img src="img/banner.jpg" alt=""></li>
+            <li><img src="img/banner1.jpg" alt=""></li>
+            <li><img src="img/banner2.jpg" alt=""></li>
+            <li><img src="img/banner3.jpg" alt=""></li>
+            <li><img src="img/banner4.jpg" alt=""></li>
         </ul>
         </div>
 
@@ -95,7 +95,7 @@
                         <p class="text-center text-md-left fs-6"><%=x.getNombre()%></p>
                     </div>
                     <div class="col-12 col-md-3 d-none d-md-block">
-                        <p class="text-center text-md-left fs-6">1 unidades</p>
+                        <p class="text-center text-md-left fs-6">1 unidad</p>
                     </div>
                     <div class="col-12 col-md-3 d-none d-md-block">
                         <p class="text-center text-md-left fs-6" id="precioCpu"><%=x.getPrecio()%></p>
@@ -142,7 +142,7 @@
                         <p class="text-center text-md-left fs-6"><%=x.getNombre()%></p>
                     </div>
                     <div class="col-12 col-md-3 d-none d-md-block">
-                        <p class="text-center text-md-left fs-6">1 unidades</p>
+                        <p class="text-center text-md-left fs-6">1 unidad</p>
                     </div>
                     <div class="col-12 col-md-3 d-none d-md-block">
                         <p class="text-center text-md-left fs-6" id="precioCpu"><%=x.getPrecio()%></p>
