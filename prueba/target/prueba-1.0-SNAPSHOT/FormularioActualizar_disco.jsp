@@ -49,7 +49,7 @@
                 int idProducto = Integer.parseInt(request.getParameter("id"));
 
                 // Realizar una consulta para obtener los datos del producto
-                String url = "jdbc:mysql://localhost:33065/aplicativo_computer";
+                String url = "jdbc:mysql://localhost:3306/aplicativo_computer";
                 String usuario = "root";
                 String contraseña = "";
                 String sentenciaSQL = "SELECT Nombre, Stock, Imagen, Precio FROM discoduro WHERE ID = ?";

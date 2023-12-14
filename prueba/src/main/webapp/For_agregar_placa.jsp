@@ -39,7 +39,7 @@
 
             <!-- Agregar código de inserción aquí -->
             <%
-                String url = "jdbc:mysql://localhost:33065/aplicativo_computer";
+                String url = "jdbc:mysql://localhost:3306/aplicativo_computer";
                 String usuario = "root";
                 String contraseña = "";
 
